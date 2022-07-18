@@ -41,7 +41,7 @@ while True:
     price = 900
     percentchange24hr = -7.43
 
-    if price < 1000 and percentchange24hr < -7:
+    if percentchange24hr < -7:
         alertembed = Embed( 
             description= (f'The current price of Ethereum (ETH) is: **${price}**. This dip may be the beginning of a crash. Use this oppurtunity to sell or buy!'),
             color= 0x5CDBF0,
