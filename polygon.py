@@ -39,7 +39,7 @@ while True:
     percentchange24hr = round_nearest_to(percentchange24hr, 0.001)
 
 
-    if price < 30 and percentchange24hr < -7:
+    if percentchange24hr < -7:
         alertembed = Embed( 
             description= (f'The current price of Polygon (MATIC) is: **${price}**. This dip may be the beginning of a crash. Use this oppurtunity to sell or buy!'),
             color= 0x5CDBF0,
